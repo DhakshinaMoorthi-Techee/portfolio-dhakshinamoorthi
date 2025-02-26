@@ -63,9 +63,12 @@ export const Header = () => {
             <ButtonScrollTo elementId="skills">Skills</ButtonScrollTo>
             <ButtonScrollTo elementId="projects">Projects</ButtonScrollTo>
             <ButtonScrollTo elementId="contact">Contact</ButtonScrollTo>
-            <a href="../../../../public/DhakshinamoorthiResume.pdf" download={pdfFile}>
+            <a
+              href="https://drive.google.com/file/d/1xxw9RqO0qj35uFemmFtCrKd0hqPGe5iR/view?usp=sharing"
+              target="_blank"
+            >
               <Button>
-                <span>Download CV</span>
+                <span>View CV</span>
               </Button>
             </a>
           </div>
